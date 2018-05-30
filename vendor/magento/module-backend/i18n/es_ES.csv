@@ -365,7 +365,7 @@ Country,Country
 Region/State,Region/State
 "ZIP/Postal Code","ZIP/Postal Code"
 City,City
-"Street Address","Street Address"
+"Street Address","Domicilio"
 "Street Address Line 2","Street Address Line 2"
 "VAT Number","VAT Number"
 "Single-Store Mode","Single-Store Mode"
