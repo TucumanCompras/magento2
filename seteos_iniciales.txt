@@ -1,0 +1,21 @@
+- Agregar un alias al shell
+$ nano ~/.bashrc
+
+# some more ls aliases
+alias ll='ls -l'
+#alias la='ls -A'
+#alias l='ls -CF'
+alias htd='cd /opt/bitnami/apps/magento/htdocs'
+alias bkp='cd /bucket/backups'
+alias scr='cd /opt/bitnami/apps/magento/htdocs/var/tucumancompras/scripts'
+alias _sql_conn='mysql -uroot -pxxxxxx bitnami_magento'
+alias _bit_rest='sudo /opt/bitnami/ctlscript.sh restart'
+alias _mag_init='sudo chmod 777 /opt/bitnami/apps/magento/htdocs/var/tucumancompras/shell/*.sh && sudo /opt/bitnami/apps/magento/htdocs/v$
+alias _mag_dply='sudo /opt/bitnami/apps/magento/htdocs/var/tucumancompras/shell/magento_deploy.sh'
+alias _mag_rndx='sudo php /opt/bitnami/apps/magento/htdocs/bin/magento indexer:reindex'
+alias _mag_clea='sudo /opt/bitnami/apps/magento/htdocs/var/tucumancompras/shell/magento_clean.sh'
+alias _mag_impo='sudo /opt/bitnami/apps/magento/htdocs/var/tucumancompras/shell/magento_import.sh'
+alias _git_clone='sudo /opt/bitnami/apps/magento/htdocs/var/tucumancompras/shell/git_clone.sh'
+
+Recargo el archivo de alias para que pueda usarse
+$ . ~/.bashrc
