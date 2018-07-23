@@ -315,8 +315,8 @@ or,or
 "Change Shipping Address","Cambiar la Dirección de Envío"
 "You have no default shipping address in your address book.","You have no default shipping address in your address book."
 "Additional Address Entries","Dirección Adicional"
-"Delete Address","Delete Address"
-"You have no other address entries in your address book.","You have no other address entries in your address book."
+"Delete Address","Eliminar Dirección"
+"You have no other address entries in your address book.","No tiene otras entradas de dirección en su libreta de direcciones."
 "* Required Fields","* Required Fields"
 Address,Dirección
 "Street Address","Domicilio"
